@@ -1,0 +1,60 @@
+<meta charset="utf-8">
+<link rel="shortcut icon" href="./ico/THMovie.ico">
+<link rel=stylesheet type="text/css" href="Style.css">
+<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="./themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./themes/light/light.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./themes/dark/dark.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./themes/bar/bar.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<html>
+	<div id = "logo"><a href="index.html"><img src="./photo/click.png" id = 'click'><img src="./ico/THMovie.png"></a></div>
+	<head>
+		<title>TH Movie - 您看影片的好鄰居</title>
+		<div id = 'bigname'><p id = "Title">TH Movie - 您看影片的好鄰居</p></div>
+		<div>
+				<a style="position:absolute;">
+					<ul>
+						<p style="position:absolute;margin-left:20px;margin-top:30px;"><a href="aboutus.html" id = "bottom" style="color:black;"><i class="fa fa-bell" aria-hidden="true">AboutUs</i></a></p>
+						<p style="position:absolute;margin-left:20px;margin-top:130px;"><a href="movie.html" id = "bottom" style="color:black;"><i class="fa fa-magic" aria-hidden="true">電影介紹</i></a></p>
+						<p style="position:absolute;margin-left:20px;margin-top:230px;"><a href="drama.html" id = "bottom" style="color:black;"><i class="fa fa-caret-square-o-right" aria-hidden="true">連續劇</i></a></p>
+						<p style="position:absolute;margin-left:20px;margin-top:330px;"><a href="events.html" id = "bottom" style="color:black;"><i class="fa fa-bullhorn">活動專區</i></a></p>
+					</ul>
+				</a>
+		</div>
+	</head>
+	<body>
+	<div id="wrapper" style="height:300px;width:500px;margin-left:220px;margin-top:10px;position:fixed;">
+		<div>-TH Movie-</div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="photo/04.jpg" alt="Xmen">
+				<img src="photo/01.jpg" alt="出神入化2" >
+				<img src="photo/03.jpg" alt="ID4">
+				<img src="photo/the_conjuring2.jpg"  style='height:700px;width:500px;' alt="厲陰宅2">
+				<img src="photo/02.jpg" alt="麻醉風波">
+				<img src="photo/06.jpg" alt="半澤直樹">
+				<img src="photo/bc.jpg" alt='必娶女人'>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="./jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	<div>
+		<div id = "newstitle">好康來相報</div>
+		<a href='movie.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-star-o" id = "newsicon"></i>X戰警-天啟 2016/5/18上映！</div></a>
+		<a href='drama.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-tv" id = "newsicon"></i>麻醉風波 一起探索！</div></a>
+		<a href='movie.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-star-o" id = "newsicon"></i>出神入化2 2016/6/10上映！</div></a>
+		<a href='drama.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-tv" id = "newsicon"></i>半澤直樹 現正熱映中！</div></a>
+		<a href='movie.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-star-o" id = "newsicon"></i>ID4 2016/6/22上映！</div></a>
+		<a href='movie.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-star-o" id = "newsicon"></i>厲陰宅2 2016/6/08 驚恐上映！</div></a>
+		<a href='drama.html' style="text-decoration:none;"><div id = "news"><i class="fa fa-tv" id = "newsicon"></i>必娶女人 點我收看！</div></a>	
+	</div>
+	</body>
+</html>
